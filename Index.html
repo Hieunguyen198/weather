@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="js/all.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-section">
+            <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <input type="text" class="search-icon" placeholder="Tìm kiếm thành phố..." name="search-city" id="search-input">
+            </div>
+            <div class="info-Wapper">
+                <p class="city-name">Ho Chi Minh</p>
+                <p class="weather-state">may thua</p>
+                <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="weather-icon">
+                <p class="temperature">26</p>
+            </div>
+            
+        </div>
+        <div class="additional-section">
+            <div class="row">
+                <div class="item">
+                    <div class="lable">MT Mộc</div>
+                    <div class="value sunrise">6:16</div>
+                </div>
+                <div class="item">
+                    <div class="lable">MT Lặn</div>
+                    <div class="value sunset">6:00</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="lable">Độ ẩm</div>
+                    <div class="value"><span class="humidity">70</span>%</div>
+                </div>
+                <div class="item">
+                    <div class="lable">Gió</div>
+                    <div class="value"><span class="wind-speed">7</span>Km/h</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/moments.js"></script>
+
+</body>
+</html>
